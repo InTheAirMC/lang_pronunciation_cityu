@@ -87,7 +87,7 @@ def get_audio_data(word):
     headers = {
         'content-type': "application/json",
         'x-rapidapi-host': "pronunciation-assessment1.p.rapidapi.com",
-        'x-rapidapi-key': "3bbcf35f2fmsh2bddf79ad79f41ep14f141jsn1c195dc62d92"
+        'x-rapidapi-key': "INSERT KEY HERE"
         }
     data = read_json('audio_detail.json')
     data["audio_base64"] = enc.decode("ascii")
